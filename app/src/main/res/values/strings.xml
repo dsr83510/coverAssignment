@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AutoCompleteDemo</string>
+    <string name="place_prediction_question">What\'s your address?</string>
+    <string name="place_prediction_text_entry_hint">e.g. 123 Main Street</string>
+    <string name="next_button_label">NEXT</string>
+    <string name="alert_no_selection_title">No Options Selected</string>
+    <string name="alert_no_selection_message">Select one of the options to continue.</string>
+    <string name="alert_ok_generic_button_label">OK</string>
+    <string name="insurance_carrier_selection_question">Who\'s your current insurer?</string>
+    <string name="insurance_carrier_selection_text_entry_hint">e.g. Geico</string>
+    <string name="alert_invalid_address">Invalid address</string>
+    <string name="alert_invalid_insurance">Invalid insurance carrier</string>
+    <string name="alert_final_success">Success!</string>
+</resources>

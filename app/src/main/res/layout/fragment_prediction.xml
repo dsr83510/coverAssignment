@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prediction_question_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/place_prediction_question"
+            android:textSize="18dp"></TextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/prediction_autocomplete_view"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:completionThreshold="1"
+            android:dropDownHeight="wrap_content"
+            tools:hint="@string/place_prediction_text_entry_hint" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:gravity="center|bottom"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/next_button_label"
+            android:textColor="@color/red"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
